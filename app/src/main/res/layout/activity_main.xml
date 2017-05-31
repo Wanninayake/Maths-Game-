@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#ffffff"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.user.game.MainActivity">
+
+    <TableLayout
+        android:background="#ffffff"
+        android:layout_marginLeft="90dp"
+        android:layout_marginRight="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="400dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp">
+        <TableRow>
+
+            <Button
+                android:background="#a8b3a3"
+                android:layout_width="125dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="20dp"
+                android:text="New Game"
+                android:layout_marginRight="20dp"
+                android:id="@+id/btnnewame"
+                />
+
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:background="#a8b3a3"
+                android:layout_width="125dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                android:text="Continue"
+                android:id="@+id/btncon"
+                />
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:background="#a8b3a3"
+                android:layout_width="125dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="40dp"
+                android:text="about"
+                android:layout_marginRight="20dp"
+                android:id="@+id/btnabout"
+                />
+
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:background="#a8b3a3"
+                android:layout_width="125dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginRight="20dp"
+                android:text="exit"
+                android:id="@+id/btnexit"
+                />
+        </TableRow>
+    </TableLayout>
+
+    <LinearLayout
+        android:background="#ffffff"
+        android:layout_marginTop="430dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hints:-"
+            android:textSize="25dp"
+            android:layout_marginRight="10dp"
+            />
+        <Switch
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnHint"
+            />
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
